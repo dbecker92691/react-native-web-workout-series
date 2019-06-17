@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbecker92691/react-native-web-workout-series.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbecker92691/react-native-web-workout-series/issues"
+  },
+  "homepage": "https://github.com/dbecker92691/react-native-web-workout-series#readme",
+  "workspaces": [
+    "packages/*"
+  ]
+}
