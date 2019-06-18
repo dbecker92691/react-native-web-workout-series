@@ -15,11 +15,12 @@ wml: https://github.com/wix/wml
 
 
 ## Run
+Root:
+~/root-directory/ $ wml start
+    - coppies changes made from common and adds them to app/web
+
 
 App:
-~/packages/app $ wml start
-    - coppies changes made from common and adds them to app
-
 ~/packages/app $ yarn start
     - starts server
 
